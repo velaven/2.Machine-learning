@@ -1,0 +1,19 @@
+MachineLearning(input,output-numerical)
+supervisedLearning-only input data give
+classification-classifying the output data based on the input parameter
+endgoal-to predict the parameter to create the CKD
+categorical data changed to numerical data
+dataset=pd.get_dummies(dataset)type=int,drop_first=True
+399 rows ,25 columns
+DecisionTreeGrid          SVCGrid            RandomForestGrid
+accuracy  1.00             0.99                   0.98
+precision 1.00             1.00                   0.98
+recall    1.00             0.98                   0.98
+f1 score  1.00             0.99                   0.98
+
+
+
+
+from above values DecisionTreeGridSearch model has got Accurcy value,precision,recall,f1score are 1.00.
+so best model is DecisionTreeGridSearchModel .
+CKD Assignment-Best Model is DecisionTreeGridSearch
